@@ -1,0 +1,64 @@
+body {
+  font-family: Helvitica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+.main {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+div {
+  display: block;
+}
+
+#mission .content {
+  width: 100%;
+  margin: auto;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#store {
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+}
+
+#locations {
+  height: 500px;
+  padding-top: 70px;
+}
+
+#contact{
+  height: 200px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
